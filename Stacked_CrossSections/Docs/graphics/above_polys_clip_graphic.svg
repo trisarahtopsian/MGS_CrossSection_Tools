@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="above_polys_clip_graphic.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:export-filename="strat_order_line_angles_graphic.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="203.18009"
+     inkscape:cy="430.50038"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#279456;fill-opacity:0.342776;stroke:#279456;stroke-width:0.121748;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 20.616738,176.59746 2.716385,4.298 5.956773,4.39777 8.47695,2.13833 11.684453,0.0763 7.178681,-7.40778 1.008351,-8.97411 4.309392,-14.90025 v -15.46403 l -41.513606,0.14563 0.182621,35.69008"
+       id="path12473"
+       inkscape:export-filename="above_poly_clip.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#e481d9;fill-opacity:0.413598;stroke:#e481d9;stroke-width:0.121748;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.905082,119.15523 5.311927,4.62812 9.011529,0.76368 9.317023,-3.97119 8.935157,-20.16139 19.474077,-6.491365 5.931205,-5.449599 V 72.166643 l -58.163536,0.06768 z"
+       id="path13051" />
+    <path
+       style="fill:none;stroke:#7a5100;stroke-width:0.121748;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 16.305441,43.974401 0.587645,2.154691 2.350577,0.587639 h 4.701156 l 2.938222,-3.917621 2.54646,-3.134101 1.958815,-1.175292 4.897036,1.371171 3.525866,2.350571 8.814668,-0.19588 7.639378,-4.505273 2.154699,-3.329981 2.724531,-5.288804 3.935437,-4.701153 6.268208,-3.525873 7.639378,-1.958811 10.577599,3.329982 8.031143,1.175291 h 8.422901 l 5.48468,-1.175291"
+       id="path186" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="59.176315"
+       y="12.719317"
+       id="text1343"><tspan
+         sodipodi:role="line"
+         id="tspan1341"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="59.176315"
+         y="12.719317">&quot;above_A&quot; polygon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="19.751974"
+       y="82.642921"
+       id="text1343-37"><tspan
+         sodipodi:role="line"
+         id="tspan1341-14"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="19.751974"
+         y="82.642921">&quot;above_B&quot; polygon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="26.916567"
+       y="147.2876"
+       id="text1343-37-2"><tspan
+         sodipodi:role="line"
+         id="tspan1341-14-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="26.916567"
+         y="147.2876">&quot;above_C&quot; polygon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="67.81221"
+       y="26.706156"
+       id="text1343-1"><tspan
+         sodipodi:role="line"
+         id="tspan1341-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="67.81221"
+         y="26.706156">&quot;below_A&quot; lines contain</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="67.81221"
+         y="30.085278"
+         id="tspan15127">lines from units B, C, </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="67.81221"
+         y="33.464401"
+         id="tspan15223">and D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="13.253907"
+       y="91.528564"
+       id="text1343-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan1341-7-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="13.253907"
+         y="91.528564">&quot;below_B&quot; lines contain</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="13.253907"
+         y="94.907684"
+         id="tspan15223-9">lines from units C and D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="67.226082"
+       y="165.76984"
+       id="text1343-1-4-9"><tspan
+         sodipodi:role="line"
+         id="tspan1341-7-1-5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="67.226082"
+         y="165.76984">&quot;below_C&quot; lines contain</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="67.226082"
+         y="169.14896"
+         id="tspan15223-9-9">lines from unit D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="78.11602"
+       y="44.432987"
+       id="text1343-1-1"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="78.11602"
+         y="44.432987"
+         id="tspan15127-9">When &quot;below_A&quot; lines are </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="78.11602"
+         y="47.812111"
+         id="tspan15217">clipped with &quot;above_A&quot; </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="78.11602"
+         y="51.191231"
+         id="tspan15219">polygon, no lines remain. </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="78.11602"
+         y="54.570354"
+         id="tspan15221">This means the lines were </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="78.11602"
+         y="57.949478"
+         id="tspan15249">drawn in correct order.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="64.949936"
+       y="177.80365"
+       id="text1343-1-1-3"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="64.949936"
+         y="177.80365"
+         id="tspan15127-9-2">When &quot;below_C&quot; lines are </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="64.949936"
+         y="181.18279"
+         id="tspan15217-1">clipped with &quot;above_C&quot; </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="64.949936"
+         y="184.5619"
+         id="tspan15219-7">polygon, no lines remain. </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="64.949936"
+         y="187.94102"
+         id="tspan15221-2">This means the lines were </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="64.949936"
+         y="191.32014"
+         id="tspan15249-2">drawn in correct order.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="77.720734"
+       y="104.43491"
+       id="text1343-1-1-5"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="77.720734"
+         y="104.43491"
+         id="tspan15127-9-9">When &quot;below_B&quot; lines are </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="77.720734"
+         y="107.81403"
+         id="tspan15217-3">clipped with &quot;above_B&quot; </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="77.720734"
+         y="111.19315"
+         id="tspan15249-9">polygon, the line in red</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="77.720734"
+         y="114.57228"
+         id="tspan18331">remains. This is the area</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="77.720734"
+         y="117.9514"
+         id="tspan18333">where unit C was drawn</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="77.720734"
+         y="121.33052"
+         id="tspan18335">out of unit order, above </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="77.720734"
+         y="124.70965"
+         id="tspan18337">unit B.</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#939393;stroke-width:0.243495;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 26.883041,42.799109 2.716393,4.297998 5.956775,4.397763 8.476952,2.138331 11.684444,0.07637 7.178679,-7.407787 1.008354,-8.974099 4.309395,-14.900252"
+       id="path10406" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#939393;stroke-width:0.243495;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 48.038238,53.8927 5.311929,4.628111 9.011532,0.763689 9.31701,-3.971184 4.35303,-10.080699 4.582134,-10.080697 8.935164,-3.207493 10.538913,-3.283865 5.93121,-5.449605"
+       id="path10408" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#939393;stroke-width:0.243495;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 16.893086,46.129092 4.611241,7.198632 10.920756,6.796834 8.706059,2.13833 16.724793,1.374642 4.96398,-1.527381 4.200289,-4.811242"
+       id="path10410" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="51.469414"
+       y="52.923347"
+       id="text1343-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-2"
+         style="fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="51.469414"
+         y="52.923347">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="72.313797"
+       y="46.914009"
+       id="text1343-8-7"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-4"
+         style="fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="72.313797"
+         y="46.914009">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="39.616199"
+       y="61.405376"
+       id="text1343-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-47"
+         style="fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="39.616199"
+         y="61.405376">D</tspan></text>
+    <path
+       style="fill:none;stroke:#7a5100;stroke-width:0.121748;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.03913,177.77275 0.587652,2.15469 2.35057,0.58764 h 4.701152 l 2.938234,-3.91762 2.54645,-3.1341 1.958823,-1.17529 4.897032,1.37117 3.525861,2.35057 8.814678,-0.19588 7.639374,-4.50527 2.154703,-3.32998 2.72453,-5.28881 3.935433,-4.70115 6.268203,-3.52587 7.639386,-1.95881 10.577596,3.32998 8.031147,1.17529 h 8.422893 l 5.484683,-1.17529"
+       id="path186-3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#939393;stroke-width:0.365243;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.626782,179.92744 4.611241,7.19864 10.920754,6.79683 8.706055,2.13833 16.724794,1.37464 4.963981,-1.52737 4.200283,-4.81125"
+       id="path10410-4" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#279456;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="45.203106"
+       y="186.72171"
+       id="text1343-8-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-2-4"
+         style="fill:#279456;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="45.203106"
+         y="186.72171">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#939393;fill-opacity:0.988235;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="33.349892"
+       y="195.20374"
+       id="text1343-8-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-47-0"
+         style="fill:#939393;fill-opacity:0.988235;stroke:none;stroke-width:0.153257"
+         x="33.349892"
+         y="195.20374">D</tspan></text>
+    <path
+       style="fill:none;stroke:#7a5100;stroke-width:0.121748;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 13.172284,109.23693 0.587652,2.15469 2.35057,0.58764 h 4.701153 l 2.938234,-3.91762 2.54645,-3.1341 1.958822,-1.17529 4.897032,1.37117 3.525862,2.35057 8.814677,-0.19588 7.639375,-4.50527 2.154702,-3.329982 2.72453,-5.288804 3.935433,-4.701156 6.268203,-3.525874 7.639387,-1.95881 10.577596,3.329981 8.031146,1.175291 H 102.886 l 5.48469,-1.175291"
+       id="path186-3-4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#939393;stroke-width:0.243495;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.749893,108.06164 2.716385,4.298 5.956773,4.39776 8.476949,2.13833 11.684453,0.0763 7.178681,-7.40778 1.008351,-8.9741 4.309393,-14.900252"
+       id="path10406-8-5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#939393;stroke-width:0.243495;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 13.759936,111.39162 4.611242,7.19863 10.920754,6.79684 8.706054,2.13833 16.724795,1.37464 4.963981,-1.52739 4.200282,-4.81123"
+       id="path10410-4-8" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="48.336262"
+       y="118.18588"
+       id="text1343-8-2-2-8"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-2-4-2"
+         style="fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="48.336262"
+         y="118.18588">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#e481d9;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="69.180641"
+       y="112.17653"
+       id="text1343-8-7-4-2"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-4-7-0"
+         style="fill:#e481d9;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="69.180641"
+         y="112.17653">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="36.483047"
+       y="126.66792"
+       id="text1343-8-9-8-7"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4-47-0-2"
+         style="fill:#939393;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="36.483047"
+         y="126.66792">D</tspan></text>
+    <path
+       style="fill:#8084e3;fill-opacity:0.430595;stroke:#8185e4;stroke-width:0.121748;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.811216,42.211459 0.895527,2.940228 4.536081,1.758253 4.32008,-0.570231 5.940109,-3.78007 0.762251,-5.049333 V 6.9821439 l -16.63667,0.066013 z"
+       id="path10849" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.7033px;font-family:Arial;-inkscape-font-specification:Arial;fill:#8085e4;fill-opacity:1;stroke:none;stroke-width:0.153257;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="46.231201"
+       y="45.946468"
+       id="text1343-8"><tspan
+         sodipodi:role="line"
+         id="tspan1341-4"
+         style="fill:#8085e4;fill-opacity:1;stroke:none;stroke-width:0.153257"
+         x="46.231201"
+         y="45.946468">A</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#060400;stroke-width:0.220811;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 59.176314,12.719318 -4.456297,4.871867"
+       id="path1833"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#f92d2d;stroke-width:0.486991;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.080878,87.689927 -4.309395,14.900253 -1.008348,8.97409 -7.178683,7.40779 -7.65896,-0.05"
+       id="path15872" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.13789px;font-family:Arial;-inkscape-font-specification:Arial;fill:#51ff4c;fill-opacity:1;stroke:#000000;stroke-width:0.0586471;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="61.441368"
+       y="106.68379"
+       id="text7182"><tspan
+         sodipodi:role="line"
+         id="tspan7180"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#fa0000;fill-opacity:1;stroke-width:0.0586471"
+         x="61.441368"
+         y="106.68379">!</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#060400;stroke-width:0.220811;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.442563,81.959837 6.775908,5.486594"
+       id="path1833-1"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
