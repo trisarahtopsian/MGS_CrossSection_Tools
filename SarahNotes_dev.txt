@@ -1,8 +1,0 @@
-FOLDERS TO ARCHIVE:
-J:\ArcGIS_scripts\ArcPro\MGS_Bedrock_CrossSectionTools
-
-CLEAN UP/REWORK
-Docs
-
-WORK ON:
-OneNote documentation
