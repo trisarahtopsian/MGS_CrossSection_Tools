@@ -270,7 +270,7 @@ elif not wellid_is_numeric:
     well_id_field_type = 'TEXT'
 
 # fields needed in all output files    
-fields_base = [[strat_wellid_field, well_id_field_type], [xsln_etid_field, 'TEXT', '', 3], 
+fields_base = [[strat_wellid_field, well_id_field_type], [xsln_etid_field, 'TEXT', '', 5], 
                ['x_coord', 'DOUBLE'], ['y_coord', 'DOUBLE']]
 #add mn_et_id field for stacked display
 if display_system == "stacked":
