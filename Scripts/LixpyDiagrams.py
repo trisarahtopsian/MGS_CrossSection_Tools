@@ -541,7 +541,7 @@ with arcpy.da.SearchCursor(strat_table, ['OID@', strat_wellid_field, 'elev_top',
                 if display_system == "stacked":
                     x_coord = real_x #2d x coordinate = true x coordinate
                     mn_et_id = well[4]
-                    mn_etid_int = int(mn_et_id)
+                    mn_etid_int = float(mn_et_id)
                 if display_system == "traditional":
                     #Divide distance along line by vertical exaggeration 
                     # to squish x axis for vertical exaggeration

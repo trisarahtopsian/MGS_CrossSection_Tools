@@ -184,10 +184,10 @@ for raster in rasters_list:
                     x_2d = vertex.X
                     y_2d_raw = vertex.Z
                     #etid_int = int(et_id)
-                    mn_etid_int = int(mn_et_id)
+                    mn_etid_float = float(mn_et_id)
                     #y_2d = ((y_2d_raw * 0.3048) - (county_relief * etid_int)) * vertical_exaggeration
-                    #y_2d = ((y_2d_raw * 0.3048) - (county_relief * mn_etid_int)) * vertical_exaggeration
-                    y_2d = (((y_2d_raw * 0.3048) - (county_relief * mn_etid_int)) * vertical_exaggeration) + 23100000
+                    #y_2d = ((y_2d_raw * 0.3048) - (county_relief * mn_etid_float)) * vertical_exaggeration
+                    y_2d = (((y_2d_raw * 0.3048) - (county_relief * mn_etid_float)) * vertical_exaggeration) + 23100000
                     xy_xsecview = arcpy.Point(x_2d, y_2d)
                     profile_pointlist.append(xy_xsecview)
                 profile_array = arcpy.Array(profile_pointlist)
