@@ -163,8 +163,9 @@ if shape == "Point":
             etid = line[1]
             mn_et_id = line[2]
             if mn_et_id == None:
+                printwarning("!Warning! mn_et_id field is not populated in mapview cross sections for line {0}. Data will not appear in output feature class.".format(etid))
                 continue
-            mn_et_id_int = int(mn_et_id)
+            mn_et_id_float = float(mn_et_id)
             printit("Working on xsln {0}".format(etid))
             y_pointlist = []
             x_pointlist = []
@@ -205,7 +206,7 @@ if shape == "Point":
                     #add westernmost xsln x coordinate to raw x to put into true x coordinate
                     new_x = new_x_raw + min_x
                     #calculate new y coordinate
-                    new_y = (((y * 0.3048) - (county_relief * mn_et_id_int)) * out_vertical_exaggeration) + 23100000
+                    new_y = (((y * 0.3048) - (county_relief * mn_et_id_float)) * out_vertical_exaggeration) + 23100000
 
                     #make point object from new x and y coordinates
                     new_point = arcpy.Point(new_x, new_y)
@@ -230,8 +231,9 @@ if shape == "Polyline":
             etid = xsln_line[1]
             mn_et_id = xsln_line[2]
             if mn_et_id == None:
+                printwarning("!Warning! mn_et_id field is not populated in mapview cross sections for line {0}. Data will not appear in output feature class.".format(etid))
                 continue
-            mn_et_id_int = int(mn_et_id)
+            mn_et_id_float = float(mn_et_id)
             printit("Working on xsln {0}".format(etid))
             y_pointlist = []
             x_pointlist = []
@@ -275,7 +277,7 @@ if shape == "Polyline":
                             #add westernmost xsln x coordinate to raw x to put into true x coordinate
                             new_x = new_x_raw + min_x
                             #calculate new y coordinate
-                            new_y = (((y * 0.3048) - (county_relief * mn_et_id_int)) * out_vertical_exaggeration) + 23100000
+                            new_y = (((y * 0.3048) - (county_relief * mn_et_id_float)) * out_vertical_exaggeration) + 23100000
                             
                             #make point object from new x and y coordinates, then turn into array and geometry object
                             point = arcpy.Point(new_x, new_y)
@@ -304,8 +306,9 @@ if shape == "Polygon":
             etid = xsln_line[1]
             mn_et_id = xsln_line[2]
             if mn_et_id == None:
+                printwarning("!Warning! mn_et_id field is not populated in mapview cross sections for line {0}. Data will not appear in output feature class.".format(etid))
                 continue
-            mn_et_id_int = int(mn_et_id)
+            mn_et_id_float = float(mn_et_id)
             printit("Working on xsln {0}".format(etid))
             y_pointlist = []
             x_pointlist = []
@@ -348,7 +351,7 @@ if shape == "Polygon":
                             #add westernmost xsln x coordinate to raw x to put into true x coordinate
                             new_x = new_x_raw + min_x
                             #calculate new y coordinate
-                            new_y = (((y * 0.3048) - (county_relief * mn_et_id_int)) * out_vertical_exaggeration) + 23100000
+                            new_y = (((y * 0.3048) - (county_relief * mn_et_id_float)) * out_vertical_exaggeration) + 23100000
     
                             #make point object from new x and y coordinates, then turn into array and geometry object
                             point = arcpy.Point(new_x, new_y)
