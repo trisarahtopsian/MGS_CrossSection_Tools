@@ -238,11 +238,11 @@ if display_system == "stacked":
             #printit("uniqueid is {0}".format(unique_id))
             mn_etid = line[2]
             #printit("mnetid is {0}".format(mn_etid))
-            mn_etid_int = int(mn_etid)
+            mn_etid_float = float(mn_etid)
             
             #set top and bottom y coordinates for every x
-            y_2d_1 = (((50 * 0.3048) - (county_relief * mn_etid_int)) * vertical_exaggeration) + 23100000
-            y_2d_2 = (((2300 * 0.3048) - (county_relief * mn_etid_int)) * vertical_exaggeration) + 23100000
+            y_2d_1 = (((50 * 0.3048) - (county_relief * mn_etid_float)) * vertical_exaggeration) + 23100000
+            y_2d_2 = (((2300 * 0.3048) - (county_relief * mn_etid_float)) * vertical_exaggeration) + 23100000
             line1_pointlist = []
             if temp_shape == 'Polyline':
                 line2_pointlist = []

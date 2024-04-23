@@ -256,7 +256,7 @@ if display_system == "traditional":
 # 10 Create elevation geometry
 printit("Creating geometry for elevation lines.")
 for mn_etid in mn_etid_list:
-    mn_etid_int = int(mn_etid)
+    mn_etid_int = float(mn_etid)
     for ele in major_elevations:
         pointlist = []
         line_rank = "major"
@@ -544,7 +544,7 @@ if display_system == "stacked":
 
     for mn_et_id in mn_etid_list:
         #define string version of mn_et_id
-        mn_et_id_int = int(mn_et_id)
+        mn_et_id_int = float(mn_et_id)
         #calculate coordinates of four corners of rectangle for this cross section
         min_y = (((min_z * 0.3048) - (county_relief * mn_et_id_int)) * vertical_exaggeration) + 23100000
         max_y = (((max_z * 0.3048) - (county_relief * mn_et_id_int)) * vertical_exaggeration) + 23100000

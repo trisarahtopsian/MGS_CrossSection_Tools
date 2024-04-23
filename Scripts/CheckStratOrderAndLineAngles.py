@@ -80,6 +80,7 @@ if run_location == "Pro":
     unitlist_txt = arcpy.GetParameterAsText(2)
     poly_ref = arcpy.GetParameterAsText(3)
     input_directory = arcpy.GetParameterAsText(4) #location for storing output
+    xsln_spacing = int(arcpy.GetParameterAsText(7))
     printit("Variables set with tool parameter inputs.")
 
 else:
@@ -89,6 +90,7 @@ else:
     unitlist_txt = r'D:\Pipestone_CrossSections\unitlist.txt'
     poly_ref = r'D:\Pipestone_CrossSections\Troubleshoot_022823.gdb\poly_ref'
     input_directory = r'' #location for storing output
+    xsln_spacing = 1000
     printit("Variables set with hard-coded parameters for testing.")
 
 #temp_dir = r'D:\Cross_Section_Programming\QC_tool_testing\scratch.gdb'
@@ -98,6 +100,11 @@ temp_dir = r'in_memory'
 
 county_relief = 700
 vertical_exaggeration = 50
+#set maximum elevation value to allow for half-spaced xsln
+if xsln_spacing >= 800:
+    max_ele = int(2300)
+elif xsln_spacing < 800:
+    max_ele = int(1150)
 
 #%% 
 # 3 Set up unit list
@@ -188,7 +195,7 @@ with arcpy.da.SearchCursor(stratlines_temp2, ['SHAPE@', stratline_unit_field, 'm
     for row in line_cursor:
         unit = row[1]
         mn_et_id = row[2]
-        mn_et_id_int = int(mn_et_id)
+        mn_et_id_float = float(mn_et_id)
         #make empty lists for storing all vertices and x coordinates
         vertex_list = []
         x_list = []
@@ -302,7 +309,10 @@ with arcpy.da.SearchCursor(stratlines_temp2, ['SHAPE@', stratline_unit_field, 'm
                 point_cursor.insertRow([error, unit])
                     
         #add top two points using first and last x, and maximum y based on mn_et_id
-        max_y = (((2300 * 0.3048) - (county_relief * mn_et_id_int)) * vertical_exaggeration) + 23100000
+        max_y = (((max_ele * 0.3048) - (county_relief * mn_et_id_float)) * vertical_exaggeration) + 23100000
+        #max_y = (((2300 * 0.3048) - (county_relief * mn_et_id_float)) * vertical_exaggeration) + 23100000
+        #max_y = (((1150 * 0.3048) - (county_relief * mn_et_id_float)) * vertical_exaggeration) + 23100000
+
         base_pt_1 = arcpy.Point(last_x, max_y)
         base_pt_2 = arcpy.Point(first_x, max_y)
         vertex_list.append(base_pt_1)

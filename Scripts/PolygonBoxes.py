@@ -178,11 +178,11 @@ if display_system == "stacked":
         for line in cursor:
             etid = line[1]
             mn_etid = line[3]
-            mn_etid_int = int(mn_etid)
+            mn_etid_float = float(mn_etid)
             unique_id = line[2]
             #set top and bottom y coordinates for every x
-            y_2d_1 = (((50 * 0.3048) - (county_relief * mn_etid_int)) * vertical_exaggeration) + 23100000
-            y_2d_2 = (((2300 * 0.3048) - (county_relief * mn_etid_int)) * vertical_exaggeration) + 23100000
+            y_2d_1 = (((50 * 0.3048) - (county_relief * mn_etid_float)) * vertical_exaggeration) + 23100000
+            y_2d_2 = (((2300 * 0.3048) - (county_relief * mn_etid_float)) * vertical_exaggeration) + 23100000
             pointlist = []
             x_list = []
             for vertex in line[0].getPart(0):

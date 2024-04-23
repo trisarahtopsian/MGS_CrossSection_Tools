@@ -80,12 +80,12 @@ if run_location == "Pro":
 
 else:
     # hard-coded parameters used for testing
-    in_fc = r'D:\Statewide_UN_map\Original_data.gdb\strat_2019_2'
-    in_fc_etid_field = "mn_et_id"
-    out_fc = r'D:\Statewide_UN_map\Stacked_50x.gdb\strat_2019_2_stack'
-    xsln_fc = r'D:\Statewide_UN_map\Original_data.gdb\xsln_2019_2'
-    xsln_etid_field = 'mn_et_id'
-    in_vertical_exaggeration = 250
+    in_fc = r'D:\Dakota_DVD\Working_Maps\temp_data\Traditional_Combined.gdb\strat_pg'
+    in_fc_etid_field = "et_id"
+    out_fc = r'D:\Dakota_DVD\Working_Maps\temp_data\Conversion_Test.gdb\strat_pg_stacked'
+    xsln_fc = r'D:\Dakota_DVD\Working_Maps\temp_data\CrossSections.gdb\xsln'
+    xsln_etid_field = 'et_id'
+    in_vertical_exaggeration = 50
     printit("Variables set with hard-coded parameters for testing.")
 
 
@@ -289,6 +289,7 @@ if shape == "Polyline":
                         with arcpy.da.InsertCursor(out_fc, ['SHAPE@', in_fc_etid_field, unique_id_field, "mn_et_id"]) as output_line_cursor:
                             output_line_cursor.insertRow([new_geometry, etid, in_fc_oid, mn_et_id])
                     except:
+                        printwarning("Warning: unable to create geometry for line oid {0}".format(in_fc_oid))
                         continue
                     
     printit("Finished converting line data. Updating feature class extent.")
@@ -363,6 +364,7 @@ if shape == "Polygon":
                         with arcpy.da.InsertCursor(out_fc, ['SHAPE@', in_fc_etid_field, unique_id_field, 'mn_et_id']) as output_poly_cursor:
                             output_poly_cursor.insertRow([new_geometry, etid, in_fc_oid, mn_et_id])
                     except:
+                        printwarning("Warning: unable to create geometry for polygon oid {0}. Check to make sure the polygon doesn't have holes or NULL geometry.".format(in_fc_oid))
                         continue
                     
     printit("Finished converting polygon data. Updating feature class extent.")
@@ -414,3 +416,5 @@ except:
 toolend = datetime.datetime.now()
 toolelapsed = toolend - toolstart
 printit('Tool completed at {0}. Elapsed time: {1}. Youre a wizard!'.format(toolend, toolelapsed))
+
+# %%
